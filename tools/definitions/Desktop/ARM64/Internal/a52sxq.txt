@@ -1,0 +1,7 @@
+[Drivers]
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE=""
+\components\Devices\A52sxq=""
+\components\QC7325=""
+
+[Apps]
+\apps\IPA=""
