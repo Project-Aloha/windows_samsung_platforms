@@ -1,5 +1,5 @@
 [Drivers]
-\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE=""
+\components\ANYSOC\Support\Desktop=""
 \components\Devices\A52sxq=""
 \components\QC7325=""
 
