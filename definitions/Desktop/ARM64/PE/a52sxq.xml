@@ -1,0 +1,49 @@
+<FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
+    <Drivers>
+        <BaseDriverPackages>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature_project_aloha.inf" ID="desktopsignature_project_aloha"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE" Name="ssde.inf" ID="ssde"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Drivers\Touch" Name="FingerTipS556A.inf" ID="FingerTipS556A"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\SOC\TrEE\OEM" Name="A52s_TreeExtOem.inf" ID="A52s_TreeExtOem"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\A52sxq\Platform\Extensions\SOC\TrEE\QCOM" Name="A52s_TreeExtQcom.inf" ID="A52s_TreeExtQcom"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\Buses\GLINK" Name="qcglink7280.inf" ID="qcglink7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\Buses\GPI" Name="qcgpi7280.inf" ID="qcgpi7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\GPIO" Name="qcgpio7280.inf" ID="qcgpio7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\I2C" Name="qci2c7280.inf" ID="qci2c7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\IOMMU" Name="qciommu.inf" ID="qciommu"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\IPCC" Name="qcipcc7280.inf" ID="qcipcc7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PCIe" Name="qcppx7280.inf" ID="qcppx7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\Apps" Name="QcPmicApps7280.inf" ID="QcPmicApps7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\Core" Name="qcpmic7280.inf" ID="qcpmic7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink7280.inf" ID="QcPmicGlink7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio7280.inf" ID="qcpmicgpio7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\PowerManagement" Name="qcpep.wp7280.inf" ID="qcpep.wp7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\Provisioning" Name="QcSOCPartition.inf" ID="QcSOCPartition"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi7280.inf" ID="qccdi7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen.inf" ID="qcrpen"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\BusAccessModule" Name="qckmbam7280.inf" ID="qckmbam7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\CacheController" Name="qcsyscache7280.inf" ID="qcsyscache7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\System\SCM" Name="qcscm.inf" ID="qcscm"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\SMMU" Name="qcsmmu7280.inf" ID="qcsmmu7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\SPMI" Name="qcspmi7280.inf" ID="qcspmi7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\UART" Name="qcuart7280.inf" ID="qcuart7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc7280.inf" ID="qcadc7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USB\UCSI" Name="qcusbcucsi7280.inf" ID="qcusbcucsi7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USBFn\Interfaces" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter7280.inf" ID="QcUsbFnSsFilter7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Drivers\USBHost" Name="QcXhciFilter7280.inf" ID="QcXhciFilter7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\PMIC\Core" Name="qcpmicext7280.inf" ID="qcpmicext7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\PowerManagement" Name="qcpepextension7280.inf" ID="qcpepextension7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\Extensions\SOC\IOMMU" Name="qciommuext7280.inf" ID="qciommuext7280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7325\ProvisioningPkgs" Name="qcppmsettings7280.inf" ID="qcppmsettings7280"/>
+        </BaseDriverPackages>
+    </Drivers>
+    <AppX>
+        <AppXPackages>
+        </AppXPackages>
+    </AppX>
+</FeatureManifest>

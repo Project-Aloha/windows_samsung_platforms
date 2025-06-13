@@ -20,6 +20,10 @@ echo apps\IPA >> filelist_a52sxq.txt
 echo CODE_OF_CONDUCT.md >> filelist_a52sxq.txt
 echo components\ANYSOC\Changelog >> filelist_a52sxq.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE >> filelist_a52sxq.txt
+echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE >> filelist_a52sxq.txt
+echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS >> filelist_a52sxq.txt
+echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS >> filelist_a52sxq.txt
+echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL >> filelist_a52sxq.txt
 echo components\Devices\A52sxq >> filelist_a52sxq.txt
 echo components\QC7325 >> filelist_a52sxq.txt
 echo definitions\Desktop\ARM64\Internal\a52sxq.xml >> filelist_a52sxq.txt
