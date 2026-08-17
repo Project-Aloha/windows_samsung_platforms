@@ -20,6 +20,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\gts7fewifi\Drivers\Pen" Name="WacomPenI2C.inf" ID="WacomPenI2C"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\gts7fewifi\Drivers\SM5714Pmic" Name="SM5714Pmic.inf" ID="SM5714Pmic"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\gts7fewifi\Drivers\Touch" Name="FocalTechTouch.inf" ID="FocalTechTouch"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\gts7fewifi\Drivers\TypeC" Name="PS5169.inf" ID="PS5169"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\gts7fewifi\Extensions\Graphics\Monitor" Name="Gts7fewifi_panel.inf" ID="Gts7fewifi_panel"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\gts7fewifi\Extensions\Subsystems" Name="Gts7fewifi_subsys_ext.inf" ID="Gts7fewifi_subsys_ext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\gts7fewifi\Platform\Drivers\Audio\ADCM" Name="qcadcm7280.inf" ID="qcadcm7280"/>
@@ -141,19 +142,6 @@
     </Drivers>
     <AppX>
         <AppXPackages>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Chat" Name="LumiaWOA.Chat_btf4vqatnxdpt.msixbundle" ID="LumiaWOA.Chat_btf4vqatnxdpt"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement_ARM.appxbundle" ID="Comms.Apps.CommsEnhancement_ARM"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement.CN_ARM.appxbundle" ID="Comms.Apps.CommsEnhancement.CN_ARM"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Dialer" Name="LumiaWOA.Dialer_mgf8b6qyy0nb4.msixbundle" ID="LumiaWOA.Dialer_mgf8b6qyy0nb4"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.2.2.appx" ID="Microsoft.NET.Native.Framework.2.2"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.x64.1.3.Appx" ID="Microsoft.NET.Native.Framework.x64.1.3"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.2.2.appx" ID="Microsoft.NET.Native.Runtime.2.2"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.x64.1.4.Appx" ID="Microsoft.NET.Native.Runtime.x64.1.4"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.UI.Xaml.2.8.appx" ID="Microsoft.UI.Xaml.2.8"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM.140.00.appx" ID="Microsoft.VCLibs.ARM.140.00"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.appx" ID="Microsoft.VCLibs.ARM64.14.00"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.Desktop.appx" ID="Microsoft.VCLibs.ARM64.14.00.Desktop"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.x64.14.00.appx" ID="Microsoft.VCLibs.x64.14.00"/>
         </AppXPackages>
     </AppX>
 </FeatureManifest>
